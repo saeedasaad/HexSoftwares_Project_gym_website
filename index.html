@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITZONE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader-container">
+            <div class="loader"></div>
+            <div class="loader"></div>
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <!-- <div id="scrollTopBtn" title="Go to top"> -->
+    <i class="ri-arrow-up-double-line" id="scrollTopBtn" title="Go to top"></i>
+    <!-- </div> -->
+
+
+    <main>
+
+        <!-- Dark Overlay -->
+        <div class="layout"></div>
+
+        <!-- Header Section -->
+        <nav>
+            <div class="nav-container">
+                <!-- Logo -->
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg" alt="FITZONE Logo">
+                </div>
+
+                <!-- Menu icon for mobile -->
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+
+                <!-- Navigation Menu -->
+                <div class="nav-menu" id="nav-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#trainers">Trainers</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#membership">Membership</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#FAQ">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 id="hero-heading">Transform Your<br><span>Body</span> & <span>Mind</span></h1>
+                    <!-- <h1>Transform Your Body & Mind </h1> -->
+                    <p>
+                        Join the ultimate fitness experience with state-of-the-art facilities,
+                        expert trainers, and a community that pushes you to achieve your goals.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary">Get Started Today</button>
+                        <button class="btn-secondary">View Schedule</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/7-day_gym_workout_plan_36f33eaf-5f47-469d-97b4-97599edb483d.webp"
+                        alt="Gym Workout Plan">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Facilities Section -->
+    <section class="bg-light" id="facilities" active>
+        <div class="container">
+            <h2>World-Class <span>Facilities</span></h2>
+            <p id="para">Experience premium equipment and amenities designed to elevate your fitness journey.</p>
+
+            <!-- Facilities Cards Wrapper -->
+            <div class="facilities-grid">
+
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <i class="ri-heart-pulse-line"></i>
+                        <img src="images/F-img-1.jpg" alt="Recovery Lounge">
+                    </div>
+                    <div class="card-content">
+                        <h4>Recovery Lounge</h4>
+                        <p>Relax in a modern recovery area equipped with massage chairs and stretching tools.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <i class="ri-run-line"></i>
+                        <img src="images/F-img-2.jpg" alt="Cardio Arena">
+                    </div>
+                    <div class="card-content">
+                        <h4>Cardio Arena</h4>
+                        <p>State-of-the-art treadmills, ellipticals, and bikes with real-time performance tracking.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <i class="ri-water-flash-line"></i>
+                        <img src="images/F-img-3.jpg" alt="Swimming Pool">
+                    </div>
+                    <div class="card-content">
+                        <h4>Swimming Pool</h4>
+                        <p>Olympic-size heated pool for lap swimming, aqua aerobics, and recovery sessions.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <i class="ri-fire-line"></i>
+                        <img src="images/F-img-4.jpg" alt="Sauna and Steam">
+                    </div>
+                    <div class="card-content">
+                        <h4>Sauna & Steam Room</h4>
+                        <p>Traditional and infrared saunas for detox, recovery, and post-workout relaxation.</p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <img src="images/F-img-5.jpg" alt="Free Weights Area">
+                    </div>
+                    <div class="card-content">
+                        <h4>Free Weights Zone</h4>
+                        <p>Extensive dumbbell collection from 5–150 lbs, kettlebells, and functional training tools.</p>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <i class="ri-heart-add-line"></i>
+                        <img src="images/F-img-6.jpg" alt="Recovery Zone">
+                    </div>
+                    <div class="card-content">
+                        <h4>Recovery Zone</h4>
+                        <p>Foam rollers, massage chairs, and mobility tools designed for peak performance.</p>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <i class="ri-basketball-line"></i>
+                        <img src="images/F-img-7.jpeg" alt="Sports Court">
+                    </div>
+                    <div class="card-content">
+                        <h4>Sports Court</h4>
+                        <p>Indoor multi-sport court for basketball, badminton, and group training sessions.</p>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <i class="ri-cup-line"></i>
+                        <img src="images/F-img-8.jpeg" alt="Café & Nutrition Bar">
+                    </div>
+                    <div class="card-content">
+                        <h4>Café & Nutrition Bar</h4>
+                        <p>Enjoy protein shakes, smoothies, and healthy snacks crafted for your fitness goals.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2>Premium<span>Services</span></h2>
+            <p id="para">Comprehensive fitness solutions designed to help you reach your goals faster</p>
+
+            <div style="display: flex; flex-direction: column; gap: 50px;">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/S-img1.png" alt="Personal Training">
+                    </div>
+
+                    <div class="service-content">
+                        <h4>Personal Training</h4>
+                        <p>
+                            One-on-one coaching tailored to your specific goals, fitness level, and schedule.
+                            Our certified trainers create customized workout plans and provide ongoing support.
+                        </p>
+
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Personalized workout programs</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Progress tracking and guidance</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Nutrition and recovery advice</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Flexible scheduling options</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Motivation and accountability</p>
+                            </div>
+                        </div>
+
+                        <button class="learn-more-btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+
+                    <div class="service-content">
+                        <h4>Group Classes</h4>
+                        <p>
+                            High-energy group workouts led by expert instructors. From HIIT and spin to yoga and
+                            pilates, find the perfect class to match your fitness style and goals.
+                        </p>
+
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Over 50 weekly classes</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Beginner to advanced levels</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>HIIT, Spin, Yoga, Pilates, Boxing</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Small class sizes for attention</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Community support and motivation</p>
+                            </div>
+                        </div>
+
+                        <button class="learn-more-btn">Learn More</button>
+                    </div>
+                    <div class="service-image">
+                        <img src="images/S-img2.png" alt="Personal Training">
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/S-img3.png" alt="Personal Training">
+                    </div>
+
+                    <div class="service-content">
+                        <h4>Nutrition Coaching</h4>
+                        <p>
+                            Expert nutritional guidance to complement your training. Our certified nutritionists help
+                            you develop sustainable eating habits that fuel your performance and results.
+                        </p>
+
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Personalized meal plans</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Macro and calorie calculations</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Supplement recommendations</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Weekly check-ins and adjustments</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="ri-checkbox-circle-fill"></i>
+                                <p>Recipe ideas and shopping lists</p>
+                            </div>
+                        </div>
+
+                        <button class="learn-more-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Trainers Section -->
+    <section class="bg-light" id="trainers">
+        <div class="container">
+            <h2>Expert <span>Trainers</span></h2>
+            <p id="para">Meet our certified professionals dedicated to helping you achieve your fitness goals</p>
+
+            <div class="trainers-grid">
+
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="images/T_img-1.jpg" alt="Marcus Johnson">
+                        <button class="certified-badge">Certified</button>
+                    </div>
+                    <div class="trainer-content">
+                        <h4>Marcus Johnson</h4>
+                        <h6>Strength & Conditioning</h6>
+                        <div class="trainer-socials">
+                            <div><i class="ri-instagram-line"></i></div>
+                            <div><i class="ri-twitter-x-line"></i></div>
+                            <div><i class="ri-linkedin-fill"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="images/T_img-2.jpg" alt="Marcus Johnson">
+                        <button class="certified-badge">Certified</button>
+                    </div>
+                    <div class="trainer-content">
+                        <h4>Sarah Chen</h4>
+                        <h6>Yoga & Pilates</h6>
+                        <div class="trainer-socials">
+                            <div><i class="ri-instagram-line"></i></div>
+                            <div><i class="ri-twitter-x-line"></i></div>
+                            <div><i class="ri-linkedin-fill"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="images/T_img-3.jpg" alt="Marcus Johnson">
+                        <button class="certified-badge">Certified</button>
+                    </div>
+                    <div class="trainer-content">
+                        <h4>David Martinez</h4>
+                        <h6>HIIT & Boxing</h6>
+                        <div class="trainer-socials">
+                            <div><i class="ri-instagram-line"></i></div>
+                            <div><i class="ri-twitter-x-line"></i></div>
+                            <div><i class="ri-linkedin-fill"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="images/T_img-4.jpg" alt="Marcus Johnson">
+                        <button class="certified-badge">Certified</button>
+                    </div>
+                    <div class="trainer-content">
+                        <h4>Emily Rodriguez</h4>
+                        <h6>Nutrition & Wellness</h6>
+                        <div class="trainer-socials">
+                            <div><i class="ri-instagram-line"></i></div>
+                            <div><i class="ri-twitter-x-line"></i></div>
+                            <div><i class="ri-linkedin-fill"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="images/T_img-5.jpg" alt="Marcus Johnson">
+                        <button class="certified-badge">Certified</button>
+                    </div>
+                    <div class="trainer-content">
+                        <h4>James Wilson</h4>
+                        <h6>Powerlifting</h6>
+                        <div class="trainer-socials">
+                            <div><i class="ri-instagram-line"></i></div>
+                            <div><i class="ri-twitter-x-line"></i></div>
+                            <div><i class="ri-linkedin-fill"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="images/T_img-6.jpg" alt="Marcus Johnson">
+                        <button class="certified-badge">Certified</button>
+                    </div>
+                    <div class="trainer-content">
+                        <h4>Lisa Thompsonn</h4>
+                        <h6>Cardio & Endurance</h6>
+                        <div class="trainer-socials">
+                            <div><i class="ri-instagram-line"></i></div>
+                            <div><i class="ri-twitter-x-line"></i></div>
+                            <div><i class="ri-linkedin-fill"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="images/T_img-7.jpg" alt="Marcus Johnson">
+                        <button class="certified-badge">Certified</button>
+                    </div>
+                    <div class="trainer-content">
+                        <h4>Marcus Johnson</h4>
+                        <h6>Strength & Conditioning</h6>
+                        <div class="trainer-socials">
+                            <div><i class="ri-instagram-line"></i></div>
+                            <div><i class="ri-twitter-x-line"></i></div>
+                            <div><i class="ri-linkedin-fill"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule-section" id="schedule">
+        <div class="container">
+            <h2>Class <span>Schedule</span></h2>
+            <p id="para">Find the perfect class to fit your schedule and fitness goals</p>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="active" data-filter="all">All Classes</button>
+                <button data-filter="HIIT">HIIT</button>
+                <button data-filter="Yoga">Yoga/Pilates</button>
+                <button data-filter="Strength">Strength</button>
+                <button data-filter="Cardio">Cardio</button>
+                <button data-filter="Boxing">Boxing</button>
+            </div>
+
+            <!-- Schedule Grid -->
+            <div class="schedule-grid">
+
+                <!-- Monday -->
+                <div class="schedule-day">
+                    <h4>Monday</h4>
+                    <hr />
+                    <div class="class-item" data-category="HIIT">
+                        <p class="date">6:00 AM</p>
+                        <h6>HIIT Blast</h6>
+                        <p>David M.</p>
+                    </div>
+                    <div class="class-item" data-category="Yoga">
+                        <p class="date">9:00 AM</p>
+                        <h6>Yoga Flow</h6>
+                        <p>Sarah C.</p>
+                    </div>
+                    <div class="class-item" data-category="Strength">
+                        <p class="date">5:00 PM</p>
+                        <h6>Strength Training</h6>
+                        <p>Marcus J.</p>
+                    </div>
+                    <div class="class-item" data-category="Cardio">
+                        <p class="date">7:00 PM</p>
+                        <h6>Spin Class</h6>
+                        <p>Lisa T.</p>
+                    </div>
+                </div>
+
+                <!--  Tuesday -->
+                <div class="schedule-day">
+                    <h4>Tuesday</h4>
+                    <hr />
+                    <div class="class-item" data-category="Boxing">
+                        <p class="date">6:00 AM</p>
+                        <h6>Boxing</h6>
+                        <p>David M.</p>
+                    </div>
+                    <div class="class-item" data-category="Yoga"">
+                        <p class=" date">10:00 AM</p>
+                        <h6>Pilates</h6>
+                        <p>Sarah C.</p>
+                    </div>
+                    <div class="class-item" data-category="Strength">
+                        <p class="date">5:30 PM</p>
+                        <h6>Powerlifting</h6>
+                        <p>James W.</p>
+                    </div>
+                    <div class="class-item" data-category="Cardio">
+                        <p class="date">7:00 PM</p>
+                        <h6>Cardio Blast</h6>
+                        <p>Lisa T.</p>
+                    </div>
+
+                </div>
+                <!-- Wednesday -->
+                <div class="schedule-day">
+                    <h4>Wednesday</h4>
+                    <hr />
+                    <div class="class-item" data-category="HIIT">
+                        <p class="date">6:00 AM</p>
+                        <h6>HIIT Blast</h6>
+                        <p>David M.</p>
+                    </div>
+                    <div class="class-item" data-category="Yoga">
+                        <p class="date">9:00 AM</p>
+                        <h6>Yoga Flow</h6>
+                        <p>Sarah C.</p>
+                    </div>
+                    <div class="class-item" data-category="Strength">
+                        <p class="date">5:00 PM</p>
+                        <h6>Strength Training</h6>
+                        <p>Marcus J.</p>
+                    </div>
+                    <div class="class-item" data-category="Cardio">
+                        <p class="date">7:00 PM</p>
+                        <h6>Spin Class</h6>
+                        <p>Lisa T..</p>
+                    </div>
+                </div>
+                <!-- Thursday -->
+                <div class="schedule-day">
+                    <h4>Thursday</h4>
+                    <hr />
+                    <div class="class-item" data-category="Yoga">
+                        <p class="date">10:00 AM</p>
+                        <h6>Pilates</h6>
+                        <p>Sarah C.</p>
+                    </div>
+                    <div class="class-item" data-category="Strength">
+                        <p class="date">5:30 PM</p>
+                        <h6>Powerlifting</h6>
+                        <p>James W.</p>
+                    </div>
+                    <div class="class-item" data-category="Cardio">
+                        <p class="date">7:00 PM</p>
+                        <h6>Cardio Blast</h6>
+                        <p>Lisa T.</p>
+                    </div>
+                </div>
+                <!-- Friday -->
+                <div class="schedule-day">
+                    <h4>Friday</h4>
+                    <hr />
+                    <div class="class-item" data-category="HIIT">
+                        <p class="date">6:00 AM</p>
+                        <h6>HIIT Blast</h6>
+                        <p>David M.</p>
+                    </div>
+                    <div class="class-item" data-category="Yoga">
+                        <p class="date">9:00 AM</p>
+                        <h6>Yoga Flowr</h6>
+                        <p>Sarah C.</p>
+                    </div>
+                    <div class="class-item" data-category="Strength">
+                        <p class="date">5:00 PM</p>
+                        <h6>Strength Training</h6>
+                        <p>Marcus J.</p>
+                    </div>
+                    <div class="class-item" data-category="Cardio">
+                        <p class="date">7:00 PM</p>
+                        <h6>Spin Classr</h6>
+                        <p>Lisa T.</p>
+                    </div>
+                </div>
+
+                <!-- Saturday -->
+                <div class="schedule-day">
+                    <h4>Saturday</h4>
+                    <hr />
+                    <div class="class-item" data-category="Boxing">
+                        <p class="date">8:00 AM</p>
+                        <h6>Boxinge</h6>
+                        <p>David M.</p>
+                    </div>
+                    <div class="class-item" data-category="Yoga">
+                        <p class="date">10:00 AM</p>
+                        <h6>Yoga Flowr</h6>
+                        <p>Yoga Flow</p>
+                    </div>
+                    <div class="class-item">
+                        <p class="date">12:00 PM</p>
+                        <h6>HIIT Blast</h6>
+                        <p>David M.</p>
+                    </div>
+                </div>
+
+                <!-- Sunday -->
+                <div class="schedule-day">
+                    <h4>Sunday</h4>
+                    <hr />
+                    <div class="class-item" data-category="Yoga">
+                        <p class="date">9:00 AM</p>
+                        <h6>Yoga Flow</h6>
+                        <p>Sarah C.</p>
+                    </div>
+                    <div class="class-item" data-category="Yoga">
+                        <p class="date">11:00 AM</p>
+                        <h6>Pilatesr</h6>
+                        <p>Sarah C.</p>
+                    </div>
+                    <div class="class-item" data-category="Cardio">
+                        <p class="date">4:00 PM</p>
+                        <h6>Cardio Blast</h6>
+                        <p>Lisa T..</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section class="membership-section" id="membership">
+        <div class="container">
+            <h2>Membership <span>Plans</span></h2>
+            <p id="para">Choose the perfect plan to match your fitness goals and lifestyle</p>
+
+            <div class="membership-grid">
+
+                <!-- Basic Plan -->
+                <div class="plan-card">
+                    <h6>Basic</h6>
+                    <h3>$29 <span>/month</span></h3>
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Access to gym facilities</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Cardio and strength equipment</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Locker room access</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Free WiFi</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Mobile app access</p>
+                        </div>
+                    </div>
+                    <button class="plan-btn">Get Started</button>
+                </div>
+
+                <!-- Standard Plan -->
+                <div class="plan-card highlight">
+                    <h6>Pro</h6>
+                    <h3>$59 <span>/month</span></h3>
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Everything in Basic</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Unlimited group classes</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Pool and sauna access</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>2 personal training sessions/month</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>
+                                Nutrition consultation</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>
+                                Guest passes (2/month)</p>
+                        </div>
+                    </div>
+                    <button class="plan-btn">Get Started</button>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="plan-card">
+                    <h6>Elite</h6>
+                    <h3>$99 <span>/month</span></h3>
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Everything in Pro</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Unlimited personal training</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Priority class booking</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Towel service</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Massage therapy (1/month)</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Unlimited guest passes</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <p>Exclusive member events</p>
+                        </div>
+                    </div>
+                    <button class="plan-btn">Get Started</button>
+                </div>
+            </div>
+            <p>All plans include a <a href="">7-day free trial</a>. No credit card required.</p>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section class="bg-light" id="testimonials">
+        <div class="testimonial-container container">
+            <h2>Premium <span>Services</span></h2>
+            <p id="para">Experience premium equipment and amenities designed to elevate your fitness journey</p>
+
+            <div class="testimonial-slider">
+                <!-- Left Arrow -->
+                <i class="ri-arrow-left-circle-fill arrow left" id="prev"></i>
+
+                <!-- Slides Wrapper -->
+                <div class="testimonial-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-content">
+                            <img src="images/user1.png" alt="Jennifer Adams">
+                            <div class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p>"FitZone has completely transformed my life! The trainers are incredibly knowledgeable
+                                and supportive. I've lost 30 pounds and gained so much confidence. The facilities are
+                                top-notch and always clean."</p>
+                            <h3>Jennifer Adams</h3>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <img src="images/user2.png" alt="Michael Brown">
+                            <div class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p>"Joining FitZone was the best decision! I’ve built strength and discipline, and the
+                                trainers really care about your goals."</p>
+                            <h3>Michael Brown</h3>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <img src="images/user3.png" alt="Sophia Turner">
+                            <div class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <p>"The premium equipment and supportive environment at FitZone made my fitness journey
+                                enjoyable and consistent!"</p>
+                            <h3>Sophia Turner</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Arrow -->
+                <i class="ri-arrow-right-circle-fill arrow right" id="next"></i>
+            </div>
+            <div class="cricle-wrapper">
+                <div class="cricle" data-index="0"></div>
+                <div class="cricle" data-index="1"></div>
+                <div class="cricle" data-index="2"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="FAQ">
+        <div class="container">
+            <h2>Frequently <span>Asked Questions</span></h2>
+            <p id="para">Everything you need to know about FitZone membership</p>
+
+            <div class="faq-container">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h6>What are your operating hours?</h6>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="faq-answer">
+                        We're open 24/7, 365 days a year! Our staffed hours are Monday-Friday 5am-11pm, Saturday-Sunday
+                        6am-10pm. Outside these hours, members have 24/7 access with their membership card.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h6>Do you offer a free trial?</h6>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Yes! All membership plans include a 7-day free trial. No credit card required to start. You can
+                        access all facilities and attend group classes during your trial period.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h6>Can I freeze my membership?</h6>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Absolutely! You can freeze your membership for up to 3 months per year. There's a small
+                        administrative fee of $10/month during the freeze period. Just give us 7 days notice.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h6>What should i bring to my first visit?</h6>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Bring comfortable workout clothes, athletic shoes, a water bottle, and a towel. We provide
+                        lockers (bring your own lock), and Elite members receive complimentary towel service.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-footer">
+                <p>Still have questions?</p>
+                <button>Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get In<span>Touch</span></h2>
+            <p id="para">Ready to start your fitness journey? Contact us today or subscribe to our newsletter</p>
+
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form action="#">
+                        <h3>Send Us a Message</h3>
+
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message <span id="charCount">(0/500)</span></label>
+                            <textarea id="message" maxlength="500"
+                                placeholder="Tell us about your fitness goals..."></textarea>
+                        </div>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>Visit Us</h3>
+
+                    <div class="info-item">
+                        <i class="ri-map-pin-line"></i>
+                        <div>
+                            <h6>Address</h6>
+                            <p>123 Fitness Street, Downtown District, New York, NY 10001</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="ri-phone-line"></i>
+                        <div>
+                            <h6>Phones</h6>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="ri-mail-line"></i>
+                        <div>
+                            <h6>Email</h6>
+                            <p>info@fitzone.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="ri-time-line"></i>
+                        <div>
+                            <h6>Hours</h6>
+                            <p>24/7 Access<br>Staffed: Mon-Fri 5am-11pm, Sat-Sun 6am-10pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <!-- Logo and Description -->
+                <div class="footer-about">
+                    <img src="images/logo.svg" alt="FitZone Logo" class="footer-logo">
+                    <p>Transform your body and mind with world-class facilities and expert guidance.</p>
+                    <div class="footer-socials">
+                        <i class="ri-facebook-fill"></i>
+                        <i class="ri-twitter-line"></i>
+                        <i class="ri-instagram-line"></i>
+                        <i class="ri-linkedin-fill"></i>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h6>Quick Links</h6>
+                    <ul>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Trainers</a></li>
+                        <li><a href="#">Class Schedule</a></li>
+                    </ul>
+                </div>
+
+                <!-- Membership -->
+                <div class="footer-links">
+                    <h6>Membership</h6>
+                    <ul>
+                        <li><a href="#">Pricing Plans</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="footer-newsletter">
+                    <h6>Subscribe to Our Newsletter</h6>
+                    <p>Get fitness tips, class schedules, and exclusive member offers delivered to your inbox.</p>
+                    <form action="#">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="footer-bottom">
+                <p>© 2025 FitZone. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Website Builder</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
