@@ -285,6 +285,7 @@ nav {
 .btn-primary:hover,
 .btn-secondary:hover {
     transform: scale(1.05);
+    color: var(--text-color);
 }
 
 .btn-secondary:hover {

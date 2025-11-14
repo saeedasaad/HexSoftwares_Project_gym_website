@@ -39,6 +39,32 @@ window.addEventListener("scroll", () => {
 });
 
 
+  document.addEventListener("DOMContentLoaded", function () {
+    const filterButtons = document.querySelectorAll(".filter-buttons button");
+    const classItems = document.querySelectorAll(".class-item");
+
+    filterButtons.forEach(button => {
+      button.addEventListener("click", () => {
+
+        filterButtons.forEach(btn => btn.classList.remove("active"));
+
+        button.classList.add("active");
+
+        const filterValue = button.getAttribute("data-filter");
+
+        classItems.forEach(item => {
+          const itemCategory = item.getAttribute("data-category");
+
+          if (filterValue === "all" || itemCategory === filterValue) {
+            item.style.display = "block";
+          } else {
+            item.style.display = "none";
+          }
+        });
+      });
+    });
+  });
+
 // testimonial-section
 const wrapper = document.querySelector('.testimonial-wrapper');
 const slides = document.querySelectorAll('.testimonial-slide');
