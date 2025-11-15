@@ -1322,7 +1322,7 @@ button:hover {
 
 @media (max-width: 900px) {
     body {
-        height: 160vh;
+        height: 150vh;
     }
 
     .nav-container {
@@ -1395,7 +1395,7 @@ button:hover {
     .hero-section {
         width: 85%;
         padding-top: 180px;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
     }
 
     .hero-content h1 {
@@ -1464,4 +1464,5 @@ button:hover {
         font-size: 0.9rem;
         margin-bottom: 30px;
     }
+
 }
