@@ -152,7 +152,7 @@ window.addEventListener("load", () => {
 
     gsap.to(loading, {
         opacity: 0,
-        duration: 0.7,
+        duration: 1,
         delay: 0.8,
         onComplete: () => loading.style.display = "none"
     });
@@ -244,5 +244,6 @@ gsap.utils.toArray("#para").forEach((title) => {
         }
     });
 });
+
 
 
