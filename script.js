@@ -5,17 +5,13 @@ const navMenu = document.getElementById("nav-menu");
 const navLinks = document.querySelectorAll(".nav-menu ul li a");
 const sections = document.querySelectorAll("section");
 
-// Toggle menu on icon click
 menuToggle.addEventListener("click", () => {
     navMenu.classList.toggle("active");
 });
 
-// Close menu and set active class on link click
 navLinks.forEach(link => {
     link.addEventListener("click", () => {
         navMenu.classList.remove("active");
-        navLinks.forEach(l => l.classList.remove("active"));
-        link.classList.add("active");
     });
 });
 
@@ -39,31 +35,31 @@ window.addEventListener("scroll", () => {
 });
 
 
-  document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     const filterButtons = document.querySelectorAll(".filter-buttons button");
     const classItems = document.querySelectorAll(".class-item");
 
     filterButtons.forEach(button => {
-      button.addEventListener("click", () => {
+        button.addEventListener("click", () => {
 
-        filterButtons.forEach(btn => btn.classList.remove("active"));
+            filterButtons.forEach(btn => btn.classList.remove("active"));
 
-        button.classList.add("active");
+            button.classList.add("active");
 
-        const filterValue = button.getAttribute("data-filter");
+            const filterValue = button.getAttribute("data-filter");
 
-        classItems.forEach(item => {
-          const itemCategory = item.getAttribute("data-category");
+            classItems.forEach(item => {
+                const itemCategory = item.getAttribute("data-category");
 
-          if (filterValue === "all" || itemCategory === filterValue) {
-            item.style.display = "block";
-          } else {
-            item.style.display = "none";
-          }
+                if (filterValue === "all" || itemCategory === filterValue) {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            });
         });
-      });
     });
-  });
+});
 
 // testimonial-section
 const wrapper = document.querySelector('.testimonial-wrapper');
